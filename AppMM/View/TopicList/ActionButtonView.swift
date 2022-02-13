@@ -8,15 +8,16 @@
 import SwiftUI
 
 struct ActionButtonView: View {
-    
+    //MARK: - PROPERTIES
+    var isFollow: Bool  = false
     
     // MARK: - BODY
     var body: some View {
         Button {
             
         } label: {
-            Text("Following")
-                .frame(width: 260, height: 40)
+            Text(isFollow ? "Following" : "Follow")
+                .frame(width: 200, height: 40)
                 .background(colorPink)
                 .foregroundColor(.white)
         }.cornerRadius(20)
@@ -24,6 +25,7 @@ struct ActionButtonView: View {
     }
 }
 
+//MARK: - PREVIEW
 struct ActionButtonView_Previews: PreviewProvider {
     static var previews: some View {
         ActionButtonView()

@@ -23,11 +23,13 @@ struct CategoryHeaderView: View {
     }
 }
 
+//MARK: - PREVIEW
 struct CategoryHeaderView_Previews: PreviewProvider {
     static var previews: some View {
         CategoryHeaderView()
             .previewLayout(.sizeThatFits)
             .padding()
             .background(Color.gray)
+            
     }
 }

@@ -9,33 +9,37 @@ import SwiftUI
 
 struct CoverImageView: View {
     //MARK: - PROPERTIES
-    
-    var imageName: String = "Thumbnail_channel_Science"
+    var currentTopic: Topics
     
     //MARK: - BODY
     
     var body: some View {
-        Image(imageName)
+        
+        Image(currentTopic.coveredImageName)
             .resizable()
+            .frame(height: 250)
             .scaledToFill()
+            .clipped()
             .overlay(
                 VStack {
                     Spacer()
-                    Text("SCIENCE CHANNEL")
+                    Text("\(currentTopic.name)")
                         .bold()
                     Spacer()
-                    ActionButtonView()
+                    ActionButtonView(isFollow: currentTopic.isFollowed)
                     Spacer()
-                    Text("234K Followers")
+                    Text(currentTopic.followersSize)
                     Spacer()
                 }
             )
+            
+     
     }
 }
 
 struct CoverImageView_Previews: PreviewProvider {
     static var previews: some View {
-        CoverImageView()
-            .previewLayout(.fixed(width: 400, height: 300))
+        CoverImageView(currentTopic: topic[0])
+            .previewLayout(.fixed(width: 400, height: 250))
     }
 }

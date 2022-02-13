@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct CoverItemView: View {
+struct CategoryItemView: View {
     // MARK: - PROPERTY
-    let cover: Category
+    let category: Category
     
     // MARK: - BODY
     var body: some View {
@@ -17,12 +17,12 @@ struct CoverItemView: View {
         ZStack(alignment: .bottomLeading) {
               
             // PHOTO
-            Image(cover.image)
+            Image(category.image)
               .resizable()
               .scaledToFill()
               
               // NAME
-              Text(cover.text)
+              Text(category.text)
                 .font(.title3)
                 .fontWeight(.black)
                 .padding()
@@ -35,9 +35,9 @@ struct CoverItemView: View {
 
 // MARK: - PREVIEW
 
-struct CoverItemView_Previews: PreviewProvider {
+struct CategoryItemView_Previews: PreviewProvider {
     static var previews: some View {
-        CoverItemView(cover: sampleCategoty)
+        CategoryItemView(category: sampleCategory)
             .previewLayout(.fixed(width: 300, height: 300))
             .padding()
             .background(.white)

@@ -7,17 +7,30 @@
 
 import SwiftUI
 
+
 struct TopicListItemView: View {
     //MARK: - PROPERTIES
+    var topicList: TopicList
     
     //MARK: - BODY
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            Text(topicList.title)
+                .bold()
+                .foregroundColor(Color.black)
+            SingInfoView(singInfoViewType: .topicList, chanelName: topicList.chanel, date: topicList.date, categoryName: "")
+        
+            Divider()
+        } //: VSTACK
+        .padding()
+        .background(Color.white)
     }
 }
 
+// MARK: - PREVIEW
 struct TopicListItemView_Previews: PreviewProvider {
     static var previews: some View {
-        TopicListItemView()
+        TopicListItemView(topicList: topic[0].list[0])
+.previewInterfaceOrientation(.portrait)
     }
 }

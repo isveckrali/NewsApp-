@@ -26,12 +26,12 @@
   },
   {
     "id" : 6,
-    "image" : "Thumbnail_channel_Enviroment",
-    "text" : "ENVIROMENT"
+    "image" : "Thumbnail_channel_Environment",
+    "text" : "ENVIRONMENT"
   },
   {
     "id" : 7,
-    "image" : "Thumbnail_channel_Finances",
+    "image" : "Thumbnail_channel_Finance",
     "text" : "FINANCES"
   },
   {

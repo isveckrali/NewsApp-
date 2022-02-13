@@ -7,8 +7,18 @@
 
 import Foundation
 
-struct Topic: Codable, Identifiable {
+struct Topics: Codable, Identifiable {
     let id: Int
-    let image: String
-    let text: String
+    let name: String
+    let isFollowed: Bool
+    let followersSize: String
+    let coveredImageName: String
+    let list: [TopicList]
+}
+
+struct TopicList: Codable, Identifiable {
+    let id: Int
+    let title: String
+    let chanel: String
+    let date: String
 }

@@ -13,7 +13,9 @@ struct AppMMApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // launch screen can be managed manually, but you should remove the related file about the Launch screen from the "info" file
+            //LaunchScreen()
+            ContentView().environmentObject(ReadCategory())
                // .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

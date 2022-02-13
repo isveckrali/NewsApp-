@@ -8,13 +8,25 @@
 import SwiftUI
 
 struct LogoView: View {
+    
+    // MARK: - BODY
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack(spacing: 4){
+            Image("Icon_navbar_Logo")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 30, height: 30, alignment: .center)
+            
+        } //: HSTACK
     }
 }
 
+
+// MARK: - PREVIEW
 struct LogoView_Previews: PreviewProvider {
     static var previews: some View {
         LogoView()
+            .previewLayout(.sizeThatFits)
+            .padding()
     }
 }

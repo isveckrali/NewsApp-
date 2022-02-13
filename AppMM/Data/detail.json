@@ -1,44 +1,14 @@
 [
-  {
-    "id" : "serengeti",
-    "name" : "Serengeti National Park",
-    "image" : "map-serengeti",
-    "latitude" : -2.3333333,
-    "longitude" : 34.8333333
-  },
-  {
-    "id" : "kruger",
-    "name" : "Kruger National Park",
-    "image" : "map-kruger",
-    "latitude" : -23.9883848,
-    "longitude" : 31.5525515
-  },
-  {
-    "id" : "chobe",
-    "name" : "Chobe National Park",
-    "image" : "map-chobe",
-    "latitude" : -18.7305642,
-    "longitude" : 24.4292148
-  },
-  {
-    "id" : "kidepo",
-    "name" : "Kidepo Valley National Park",
-    "image" : "map-kidepo",
-    "latitude" : 3.8495757,
-    "longitude" : 33.7525049
-  },
-  {
-    "id" : "etosha",
-    "name" : "Etosha National Park",
-    "image" : "map-etosha",
-    "latitude" : -18.8555909,
-    "longitude" : 16.327131
-  },
-  {
-    "id" : "solonga",
-    "name" : "Solonga National Park",
-    "image" : "map-solonga",
-    "latitude" : -1.9999932,
-    "longitude" : 21.0002492
-  }
+    {
+        "id" : 1,
+        "coverImage" : "background_article_header",
+        "firstHead" : "Artic sea ice extent hits recode low for winter maximum",
+        "chanel" : "CNN",
+        "date" : "Apr 2, 2015",
+        "category" : "SCIENCE",
+        "firstDesc" : "According to he National Oceanic and Atmosphreic Administration, Ted Scambos, NSIDC lead scientist, puts the potentially record low maximum sea ice extent this year down to low ice extent in the Pacific and a late drop in ice extent in the Barents Sea.",
+        "secondHead" : "So What does this new record for the lowest level of winter ice actually mean?",
+        "secondDesc" : "The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens with climate change. Even if the ARctic continues to be one of the fastest-warming regions of the wirld, it will always be plunged into bittterly cold polar dark every winter. And year-by-year. for all konds of natural reasons. there's huge variety of the state of the ice."
+        
+    }
 ]

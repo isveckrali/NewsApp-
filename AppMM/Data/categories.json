@@ -1,0 +1,42 @@
+[
+  {
+    "id" : 1,
+    "image" : "Thumbnail_channel_Fashion",
+    "text" : "FASHION"
+  },
+  {
+    "id" : 2,
+    "image" : "Thumbnail_channel_Science",
+    "text" : "SCIENCE"
+  },
+  {
+    "id" : 3,
+    "image" : "Thumbnail_channel_Auto",
+    "text" : "AUTO"
+  },
+  {
+    "id" : 4,
+    "image" : "Thumbnail_channel_Technology",
+    "text" : "TECHNOLOGY"
+  },
+  {
+    "id" : 5,
+    "image" : "Thumbnail_channel_Entertainment",
+    "text" : "ENTERTAINMENT"
+  },
+  {
+    "id" : 6,
+    "image" : "Thumbnail_channel_Enviroment",
+    "text" : "ENVIROMENT"
+  },
+  {
+    "id" : 7,
+    "image" : "Thumbnail_channel_Finances",
+    "text" : "FINANCES"
+  },
+  {
+    "id" : 8,
+    "image" : "Thumbnail_channel_Travel",
+    "text" : "TRAVEL"
+  }
+]

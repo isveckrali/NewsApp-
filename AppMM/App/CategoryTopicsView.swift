@@ -33,7 +33,7 @@ struct CategoryTopicsView: View {
                             CoverImageView(currentTopic: topic[0])
                                 .offset(y: isAnimating ? 0 : -35)
                             ForEach(topic[0].list) { item in
-                                TopicListItemView(topicList: topic[0].list[0])
+                                TopicListItemView(topicList: item)
                                     .onTapGesture {
                                         feedback.impactOccurred()
                                         withAnimation(.easeOut) {
